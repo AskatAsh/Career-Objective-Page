@@ -1,0 +1,22 @@
+footer{
+    background-color: var(--bg-faded-color);
+    padding: 32px 0;
+}
+footer .footer-content{
+    max-width: 1140px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-content p{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer .footer-content .social-links{
+    display: flex;
+    gap: 24px;
+}
+.footer-content .social-links a:hover{
+    transform: scale(1.2);
+}
