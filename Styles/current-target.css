@@ -1,0 +1,19 @@
+.target-cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 364px));
+    justify-content: center;
+    gap: 24px;
+}
+/* .target-cards-container .card{
+    max-width: 360px;
+    width: 100%;
+} */
+.target-cards-container .card-1{
+    background-color: var(--bg-lightpink);
+}
+.target-cards-container .card-2{
+    background-color: var(--bg-lightblue);
+}
+.target-cards-container .card-3{
+    background-color: var(--bg-lightyellow);
+}

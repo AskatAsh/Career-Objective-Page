@@ -45,6 +45,11 @@
     font-weight: 800;
     line-height: 36px;
 }
+.link-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
 /* Universal css codes */
 main.main-container{
     max-width: 1140px;
@@ -117,6 +122,9 @@ main.main-container{
 }
 .p-48-64{
     padding: 64px 48px;
+}
+.p-24{
+    padding: 24px 0;
 }
 .text-center{
     text-align: center;
