@@ -81,6 +81,9 @@ main.main-container{
     cursor: pointer;
     background-color: var(--bg-faded-color);
 }
+.border-1{
+    border: 1px solid var(--border-color);
+}
 .m-24-32{
     margin-top: 24px;
     margin-bottom: 32px;
@@ -120,4 +123,7 @@ main.main-container{
 }
 .radius-16{
     border-radius: 16px;
+}
+.section-divider{
+    height: 90px;
 }
