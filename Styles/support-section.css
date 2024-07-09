@@ -1,0 +1,44 @@
+#support-container {
+  background-image: linear-gradient(var(--border-color), var(--border-color)),
+    linear-gradient(var(--border-color), var(--border-color)),
+    linear-gradient(var(--border-color), var(--border-color)),
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#support-container .support-content {
+  max-width: 684px;
+  width: 90%;
+}
+#support-container .support-content h3{
+  color: white;
+}
+#support-container .support-content p{
+  color: white;
+}
+#support-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+#support-form input{
+    flex-grow: 1;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+#support-form button{
+    font-size: 16px;
+    background-color: white;
+    color: var(--primary-color);
+}
