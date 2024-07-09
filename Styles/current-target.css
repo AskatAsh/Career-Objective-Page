@@ -4,10 +4,6 @@
     justify-content: center;
     gap: 24px;
 }
-/* .target-cards-container .card{
-    max-width: 360px;
-    width: 100%;
-} */
 .target-cards-container .card-1{
     background-color: var(--bg-lightpink);
 }
