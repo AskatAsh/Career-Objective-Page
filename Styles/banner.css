@@ -18,3 +18,6 @@ section#banner-container{
     display: block;
     margin: 0 auto;
 }
+#banner-container .banner-content a{
+    text-decoration: none;
+}
