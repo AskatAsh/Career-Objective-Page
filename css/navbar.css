@@ -8,7 +8,7 @@ header > nav{
     gap: 20px;
     margin: 36px auto;
 }
-header > nav > button{
+header  nav  button{
     border-radius: 8px;
     color: var(--primary-color);
     background-color: #fff;
@@ -18,7 +18,14 @@ header > nav > button{
     font-weight: 600;
     cursor: pointer;
 }
-header > nav > .logo{
+header  nav  button:hover{
+    background-color: var(--bg-faded-color);
+}
+header nav .logo{
     font-size: 28px;
     font-weight: 800;
+}
+header nav .logo a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
