@@ -1,0 +1,17 @@
+.next-target-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-cards .card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.next-target-cards .card .img-container{
+    max-width: 140px;
+    width: 100%;
+}
+.img-container img{
+    width: 100%;
+}
